@@ -5,12 +5,12 @@ multi = int(input("Insira o múltiplo: "))
 nmulti = 0
 soma = 0
 
-terminarem = terminarem + 1
+terminaremm = terminarem + 1
 
-for n in range(comecarpor, terminarem):
-    nmulti = nmulti + n
+for n in range(comecarpor, terminaremm):
 
     if n % multi == 0:
         soma = soma + n
+        print(f"{n}")
 
 print(f"A soma dos múltiplos de {multi}, do intervalo de {comecarpor} e {terminarem} é de: {soma}")
